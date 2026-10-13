@@ -29,7 +29,7 @@ interface FormErrors {
 }
 
 // ---------------------------------------------------------------------------
-// Icons (inline SVG — zero deps)
+// Icons (inline SVG, zero deps)
 // ---------------------------------------------------------------------------
 function PhoneIcon() {
   return (
@@ -341,7 +341,7 @@ export default function ContactSection() {
             <div className={styles.propertyImageWrapper}>
               <img
                 src="/herosection2.png"
-                alt="HP Market exterior — a modern commercial property in Old Delhi"
+                alt="HP Market exterior, a modern commercial property in Old Delhi"
                 className={styles.propertyImage}
                 loading="lazy"
               />

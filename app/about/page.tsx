@@ -132,18 +132,18 @@ export default function AboutPage() {
                 For centuries, the lanes of Old Delhi have hummed with the energy
                 of trade. From spice merchants to textile wholesalers, this is
                 where India's commercial DNA was written. Chandni Chowk, Asaf Ali
-                Road, Ajmeri Gate — these aren't just streets, they are institutions.
+                Road, Ajmeri Gate: these aren't just streets, they are institutions.
               </p>
               <p className={styles.storyPara}>
                 But as the scale of business grew, the infrastructure around it
                 stagnated. Congested lanes, limited parking, outdated loading
-                facilities — the old ways were holding modern businesses back.
+                facilities: the old ways were holding modern businesses back.
                 HP Market was built to solve exactly that.
               </p>
               <p className={styles.storyPara}>
                 Our philosophy was never to move commerce away from its roots.
                 Instead, we asked a simpler question: what if we gave Old Delhi
-                the infrastructure it deserves? The result is HP Market — a
+                the infrastructure it deserves? The result is HP Market, a
                 landmark commercial complex at <strong style={{ color: '#FF6A00' }}>1/21 Asaf Ali Road</strong>,
                 designed from the ground up for how business actually operates today.
               </p>
@@ -218,7 +218,7 @@ export default function AboutPage() {
                 Every Detail<br />Has a Purpose.
               </h2>
               <p className={styles.pillarsIntroDesc}>
-                HP Market was built around six core pillars — each one addressing
+                HP Market was built around six core pillars, each one addressing
                 a real challenge that businesses in Old Delhi face every single day.
               </p>
             </FadeUp>
@@ -232,7 +232,7 @@ export default function AboutPage() {
                     icon: <Zap size={24} />,
                     title: 'Uninterrupted Power',
                     tag: '100% Backup',
-                    desc: 'Full power backup means your operations never pause — trading floor, showroom, or warehouse.',
+                    desc: 'Full power backup means your operations never pause: trading floor, showroom, or warehouse.',
                     img: '/godownHP.png'
                   },
                   {
@@ -264,7 +264,7 @@ export default function AboutPage() {
                     icon: <ParkingSquare size={24} />,
                     title: 'MCD Parking Access',
                     tag: 'Direct Access',
-                    desc: 'Direct access to dedicated MCD parking — effortless for customers and suppliers to reach you.',
+                    desc: 'Direct access to dedicated MCD parking makes it effortless for customers and suppliers to reach you.',
                     img: '/ourdelivery.png'
                   },
                   {
@@ -272,7 +272,7 @@ export default function AboutPage() {
                     icon: <Wifi size={24} />,
                     title: 'Connected Workspaces',
                     tag: 'High-Speed Wi-Fi',
-                    desc: 'High-speed Wi-Fi across all common areas — payments, inventory, video calls, always connected.',
+                    desc: 'High-speed Wi-Fi across all common areas keeps payments, inventory, and video calls always connected.',
                     img: '/images/gallery/interior_corridor.jpg'
                   },
                 ].map((p, i) => {
@@ -401,7 +401,7 @@ export default function AboutPage() {
                 Situated at <strong style={{ color: '#FF6A00' }}>1/21 Asaf Ali Road, New Delhi 110002</strong>,
                 HP Market places you at the intersection of India's most
                 powerful trade networks. Railway stations, metro lines, national
-                highways, and the historic wholesale markets of Old Delhi —
+                highways, and the historic wholesale markets of Old Delhi:
                 everything is within walking distance.
               </p>
 

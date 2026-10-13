@@ -176,7 +176,7 @@ export default function AboutBuilding() {
         <span className={`${styles.eyebrow} ${styles.animateOnScroll}`}>OUR VISION / 01</span>
         <h2 className={`${styles.headline} ${styles.animateOnScroll}`}>DON'T MOVE THE BUSINESS.<br />MOVE THE STANDARD FORWARD.</h2>
         <p className={`${styles.subheadline} ${styles.animateOnScroll} ${styles.delay1}`} style={{ margin: '0 auto' }}>
-          The goal was never to move businesses away from Old Delhi — but to elevate how business is conducted right where it matters most.
+          The goal was never to move businesses away from Old Delhi, but to elevate how business is conducted right where it matters most.
         </p>
         
         <div className={`${styles.ideaImageWrap} ${styles.animateOnScroll} ${styles.delay2}`}>
@@ -209,7 +209,7 @@ export default function AboutBuilding() {
               </div>
               <div className={styles.cardOverlay} />
               <div className={styles.cardContent}>
-                <span className={styles.cardNumber}>— {card.num}</span>
+                <span className={styles.cardNumber}>{card.num}</span>
                 <h3 className={styles.cardTitle}>{card.title}</h3>
                 <p className={styles.cardDesc}>{card.desc}</p>
               </div>
