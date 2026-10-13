@@ -11,27 +11,42 @@ export default function BusinessAdvantage() {
     offset: ["start end", "end start"]
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
+  const y = useTransform(scrollYProgress, [0, 1], ["-3%", "3%"]);
 
   return (
-    <section ref={containerRef} className="section" style={{ padding: '140px 0', backgroundColor: 'var(--bg-primary)' }}>
+    <section ref={containerRef} className="section" style={{ padding: '120px 0', backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
-        <div className="grid-12" style={{ alignItems: 'center', gap: '64px' }}>
+        <div className="grid-12" style={{ alignItems: 'center', gap: '48px' }}>
           
-          {/* Left: Image with Parallax */}
-          <div style={{ gridColumn: 'span 6', position: 'relative', height: '700px', borderRadius: '12px', overflow: 'hidden' }} className="ba-image">
-            <motion.div style={{ y, width: '100%', height: '120%', position: 'absolute', top: '-10%', left: 0 }}>
+          {/* Left: Image with natural fit and subtle parallax */}
+          <div 
+            style={{ 
+              gridColumn: 'span 7', 
+              position: 'relative', 
+              width: '100%',
+              aspectRatio: '16 / 10.5',
+              minHeight: '400px',
+              borderRadius: '16px', 
+              overflow: 'hidden',
+              boxShadow: '0 20px 40px -15px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.05)',
+              backgroundColor: '#f8fafc',
+            }} 
+            className="ba-image"
+          >
+            <motion.div style={{ y, width: '100%', height: '106%', position: 'absolute', top: '-3%', left: 0 }}>
               <Image
                 src="/images/building/hp-market-facade.jpg"
-                alt="HP Market Commercial Building Facade"
+                alt="HP Market Commercial Building Facade - 1/21 Asaf Ali Road"
                 fill
-                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 960px) 100vw, 60vw"
+                style={{ objectFit: 'cover', objectPosition: 'center 40%' }}
+                priority
               />
             </motion.div>
           </div>
 
           {/* Right: Content */}
-          <div style={{ gridColumn: 'span 6' }} className="ba-content">
+          <div style={{ gridColumn: 'span 5' }} className="ba-content">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -94,8 +109,17 @@ export default function BusinessAdvantage() {
       
       <style dangerouslySetInnerHTML={{__html: `
         @media (max-width: 900px) {
-          .ba-image { grid-column: span 12 !important; height: 400px !important; order: 2; }
-          .ba-content { grid-column: span 12 !important; order: 1; }
+          .ba-image { 
+            grid-column: span 12 !important; 
+            aspect-ratio: 16 / 10 !important; 
+            height: auto !important; 
+            min-height: 260px !important;
+            order: 2; 
+          }
+          .ba-content { 
+            grid-column: span 12 !important; 
+            order: 1; 
+          }
         }
       `}} />
     </section>
