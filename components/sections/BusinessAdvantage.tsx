@@ -37,7 +37,7 @@ export default function BusinessAdvantage() {
                 alt="HP Market Commercial Building Facade - 1/21 Asaf Ali Road"
                 fill
                 sizes="(max-width: 1024px) 100vw, 65vw"
-                style={{ objectFit: 'cover', objectPosition: 'center 40%' }}
+                style={{ objectFit: 'cover', objectPosition: 'center 62%' }}
                 priority
               />
             </motion.div>
