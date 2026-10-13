@@ -22,8 +22,8 @@ export default function BusinessAdvantage() {
           <div style={{ gridColumn: 'span 6', position: 'relative', height: '700px', borderRadius: '12px', overflow: 'hidden' }} className="ba-image">
             <motion.div style={{ y, width: '100%', height: '120%', position: 'absolute', top: '-10%', left: 0 }}>
               <Image
-                src="/images/gallery/exterior1.jpg" // Using an existing project image
-                alt="Business Advantage"
+                src="/images/building/hp-market-facade.jpg"
+                alt="HP Market Commercial Building Facade"
                 fill
                 style={{ objectFit: 'cover' }}
               />
